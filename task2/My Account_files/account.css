@@ -1,0 +1,77 @@
+
+
+body{
+    background-color:  #6666ff;
+    display: flex;
+    gap: 1cm;
+   margin: auto;
+
+
+}
+.container{
+    position: relative;
+}
+
+
+/* accounts */
+.accounts{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+.line1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.arrow{
+    margin-top: 100px;
+}
+
+.wallet{ 
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: 135px;
+    left: 700px;
+    border-radius: 30px;
+
+}
+
+.profilepic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+/* wallet */
+
+.wallet{ 
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: 135px;
+    left: 700px;
+    border-radius: 30px;
+
+}
+
+.profilepic2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 75%;
+    margin-top: 10%;
+}

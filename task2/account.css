@@ -1,0 +1,353 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color:  #6a5ae2;
+    display: flex;
+    gap: 1cm;
+   margin: auto;
+}
+.container{
+    position: relative;
+}
+
+/* accounts */
+.accounts{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white; 
+}
+.title{
+    font-size: 25px;
+    color: black;
+}
+
+.line1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.arrow{
+    margin-top: 13px;
+    color: gray;
+}
+
+.wallet{ 
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: 135px;
+    left: 700px;
+    border-radius: 30px;
+}
+
+.profilepic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.line2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.plus{
+    margin-left: 125px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #6666ff;
+    margin-top: 10px;
+}
+
+.symbol{
+    color: gray;
+    margin-top: 5px;
+}
+.pro{
+    background: linear-gradient(#0F0CDD, #D505EC);
+    width: 300px;
+    height: 100px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 15px;   
+}
+
+
+.card{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.blue{
+    background: linear-gradient(to left , #9dfdcd,#1ea5ff);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.violet{
+    background: linear-gradient(to left , #794aae ,#9c50ba);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.orange{
+    background: linear-gradient(to left , #ffc636 ,#ff8209);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.text{
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.mprice_per{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px
+}
+
+.bar1{
+
+    width: 200px;
+    height: 3px;
+    padding-top: 2px;  
+}
+
+.bar2{
+
+    width: 100px;
+    height: 3px;
+    padding-top: 2px;  
+}
+
+.bar3{
+
+    width: 150px;
+    height: 3px;
+    padding-top: 2px;  
+}
+
+.title1{
+    background-color: white ;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 8px;
+    font-weight: bold;
+    color: #8a7ee8;
+    padding: 10px;
+    border-left: 20px;
+    display: inline-block;
+}
+
+.uya{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.uya1{
+
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: smaller;
+
+}
+
+.uya2{
+    margin-right: 15px;
+}
+
+
+.wallet{ 
+    background-color: white;
+    width: 300px;
+    height: 620px;
+    position: relative;
+    top: 135px;
+    left: 700px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.profilepic2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 75%;
+    margin-top: 10%;
+}
+
+.w_title{
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.upgrade{
+    width: 300px;
+    height:160px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to left , #9dfdcd,#1ea5ff);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.price{
+    margin-left: 18px;
+    padding-top: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.number{
+    margin-left: 18px;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.w_percentage{
+    text-align: end;
+    margin-right: 15px; 
+}
+
+.slide{
+    background-color: white;
+    width: 260px;
+    height: 5px;
+    margin-top: 7px;
+    margin-left: 18px;
+    border-radius: 3px;
+}
+
+.c_color{
+    background: linear-gradient(to left, #ffc535, #ff8209) ;
+    width: 200px;
+    height: 3px;
+    padding-top: 2px;  
+}
+
+.w_content{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.send{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3c5b80;
+    margin-left: 5px;
+}
+
+.new-contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+    gap: 5px;
+}
+
+.add-new-contact , .new-contact .contact1 , .new-contact .contact2{
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    color: gray;
+    font-size: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact1{
+    padding: 6px;
+}
+
+.contact2{
+    padding: 6px;
+}
+
+.add-new-contact {
+    background: linear-gradient(to left , #9c43f7, #70329f);
+    padding: 6px;
+}
+.c-icon{
+    padding-top: 20px;
+}
+
+.c-text{
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.c1-icon img{
+    width: 50px;
+    margin-top: 6px;
+
+}
+
+.c2-icon img{
+    width: 50px;
+    margin-top: 7px;
+}
+
+.c1-text , .c2-text{
+    margin-top: 5px;
+}
+
+.vodafone {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+
+.amazon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.v-icon img{
+    width: 40px;
+    border-radius: 8px;
+}
+
+.a-icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.percentage{
+    padding-top: 8px;
+}
